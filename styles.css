@@ -1,0 +1,43 @@
+/* Main style sheet for SimpleComGenerator */
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #9ccbfa;
+    height: 100%;
+}
+
+.header {
+    background-color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    min-width: 100%;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh; /* Ensure the main container takes up at least 100% of the viewport height */
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-top:5px;
+    margin-bottom:0;
+    border-top: 1px solid #dee2e6;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
