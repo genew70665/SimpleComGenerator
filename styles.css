@@ -12,22 +12,45 @@ body {
 }
 
 .header {
+    flex:display;
+    flex-direction: row;
     background-color: white;
-    text-align: center;
+    align-items: center;
+    
     position: sticky;
     top: 0;
-    padding: 10px;
     min-width: 100%;
+    max-height: 50px;;
 }
-.main-container {
+
+h1 {
+    text-align: center;
+}
+#main-container {
     display: flex;
     flex-direction: column;
-    min-height: 90vh; /* Ensure the main container takes up at least 100% of the viewport height */
+    columns:1;
+    min-height: 100vh; /* Ensure the main container takes up at least 100% of the viewport height */
 }
-.container {
-    max-width: 1200px;
+
+#button-container {
+    width: 90%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#comment-box{
+    width: 90%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    align-self: center;
+    background-color: #fff;
 }
 
 .footer {

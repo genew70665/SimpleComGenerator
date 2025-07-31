@@ -1,0 +1,22 @@
+
+
+[
+    {"Title" :"Water Contam" , "Comment": "ABNORMAL overall assessment due to water contamination. The source of water is most likely from condensation, since there is not an elevated concentration of contaminant metals in the sample that are typically associated with cooling water contamination.  Drain contaminated oil from the unit until there is a clear visible stream. No abnormal wear or corrosion is being detected and the oil appears suitable for continued use once contamination is extracted from the unit. Re-sample at the regular interval."},
+
+    {"Title":"Water and PC Contam", "Comment": "ABNORMAL overall assessment due to water contamination and particle contamination. The source of water is most likely from condensation, since there is not an elevated concentration of contaminant metals in the sample that are typically associated with cooling water contamination. Drain contaminated oil from the unit until there is a clear visible stream. Particle contamination does not appear to be caused by abnormal wear or corrosion. The oil appears suitable for continued use once contamination is extracted from the unit. Re-sample at the regular interval."},
+    
+    {"Title": "Moderately Elevated PC", "Comment": "Overall assessment of MONITOR. The particle count is moderately elevated in the size range of >4 microns. Filter the oil when possible. No significant wear and no contaminant metals detected in the sample. Other test results are normal. No oil oxidation or significant water contamination detected. Continue use of oil and sample again at the regular interval."},
+    
+    {"Title": "Elevated PC", "Comment": "ABNORMAL assessment. Elevated particle count in the particle size range of >4 and >6 microns. Filter oil when possible, or drain away a portion of oil and replenish the displaced volume with new, pre-filtered oil. No significant wear and no contaminant metals detected in the sample. Other test results are normal. No oil oxidation or significant water contamination detected. Continue use of oil and re-sample in 1 to 2 months."},
+    
+    {"Title": "Normal Refrig Oil Low Vis", "Comment": "Overall assessment: NORMAL. No significant abnormalities noted. Acceptable levels of wear and contaminant metals detected. No indication of oxidation or significant water contamination. Lowered viscosity is due to refrigerant and this is typically normal. Sample again at the next regular interval."},
+    
+    {"Title": "Normal Refrig Oil H2O", "Comment": "NORMAL testing results.  Water contamination level is moderately elevated.  Other test results are normal, therefore the water contamination is more likely caused from the sample being exposed to the atmosphere after being collected from the unit. This type of lubricant is hygroscopic, and therefore requires minimal exposure to the open atmosphere.  Using glass sample bottles with a cap liner also helps to prevent moisture accumulation once outside of the unit. Continue use of oil and re-sample at the regular interval."},
+    
+    {"Title": "Normal Vacuum Pump", "Commment": "NORMAL overall assessment. No significant abnormalities noted. Acceptable levels of wear and contaminant metals detected. No indication of oxidation or significant water contamination. Continue to replace the oil at the frequency recommended by the OEM. Sample again at the next regular interval."},
+    
+    {"Title": "Vacuum Pump High PC", "Comment": "ABNORMAL assessment. Elevated particle count at >4 microns. No abnormally elevated wear or contaminant metals detected in the sample. Other test results are normal. To reduce contamination, we recommend draining away a portion of oil and replenishing the displaced volume with new, pre-filtered oil."},
+    
+    {"Title":"Vacuum Pump Low Vis and Flash", "Comment": "ABNORMAL assessment. Low viscosity and a low flash point.  Process contamination or gasoline coolant contamination is likely.  Replace oil to avoid a low viscosity condition over the next operating cycle. No indication of abnormal gear or bearing wear.  Sample the replacement oil in 1 to 2 months to monitor."}
+]
+
